@@ -13,6 +13,8 @@
 }
 
 body {
+    /* On ajoute une hauteur au body de la taille de l'écran */
+    height: calc(100vh - 100px);
     background-color: var(--primary-color);
     color: black;
 }
@@ -36,9 +38,12 @@ h2 {
 /* On active le module flex sur le container */
 /* Cela à pour effet de transformer les articles en flex-item */
 section {
+    /* On ajoute une hauteur de 100% */
+    height: 100%;
     display: flex;
     flex-direction: row; /* par défaut flex-direction est row, cette ligne ne sert donc à rien :) */
     justify-content: space-between;
+    align-items: center; /* on align les flex-items sur l'axe secondaire */
 }
 
 article {
