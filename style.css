@@ -1,0 +1,40 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #FFE6BF;
+    --secondary-color: #FFC46A;
+    --third-color: #DF8700;
+    --fourth-color: #E89515;
+    --fifth-color: #FF9A00;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: black;
+}
+
+header {
+    background: var(--secondary-color);
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+}
+
+h2 {
+    color: gray;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    background: var(--secondary-color);
+}
