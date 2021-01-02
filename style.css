@@ -38,10 +38,24 @@ h2 {
 section {
     display: flex;
     flex-direction: row; /* par défaut flex-direction est row, cette ligne ne sert donc à rien :) */
+    justify-content: space-between;
 }
 
 article {
+    /* On applique une hauteur et une largeur dans le but d'illustrer justify-content*/
+    width: 200px;
+    height: 145px;
+
     padding: 10px;
     margin: 10px;
     background: var(--secondary-color);
+}
+
+/* seulement pour l'esthétisme  */
+article p {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
 }
