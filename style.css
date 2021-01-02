@@ -37,6 +37,7 @@ h2 {
 /* Cela à pour effet de transformer les articles en flex-item */
 section {
     display: flex;
+    flex-direction: row; /* par défaut flex-direction est row, cette ligne ne sert donc à rien :) */
 }
 
 article {
