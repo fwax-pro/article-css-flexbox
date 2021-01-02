@@ -33,6 +33,12 @@ h2 {
     color: gray;
 }
 
+/* On active le module flex sur le container */
+/* Cela à pour effet de transformer les articles en flex-item */
+section {
+    display: flex;
+}
+
 article {
     padding: 10px;
     margin: 10px;
